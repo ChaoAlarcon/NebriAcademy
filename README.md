@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
 # Ideas de Diseño para una Web de Academia Online
 
 El diseño de una academia online exitosa requiere una cuidadosa consideración de múltiples elementos que trabajen en armonía para crear una experiencia educativa excepcional. Basándome en el análisis de las mejores prácticas actuales y las tendencias emergentes para 2025, presento un conjunto integral de ideas de diseño que transformarán tu plataforma educativa en un entorno de aprendizaje moderno, atractivo y efectivo.
