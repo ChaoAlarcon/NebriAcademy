@@ -1,0 +1,26 @@
+Categoría,Elemento,Descripción,Prioridad
+Diseño Visual,Paleta de colores,Colores azules/verdes para tranquilidad y confianza,Alta
+Diseño Visual,Tipografía,Fuentes legibles como Open Sans o Nunito,Alta
+Diseño Visual,Iconografía,Iconos consistentes y comprensibles,Media
+Diseño Visual,Imágenes,Fotos de alta calidad que inspiren aprendizaje,Alta
+Diseño Visual,Branding,Identidad visual coherente en toda la plataforma,Media
+UX/UI,Navegación intuitiva,Máximo 3 clics para llegar a cualquier contenido,Crítica
+UX/UI,Diseño responsive,"Adaptable a móvil, tablet y escritorio",Crítica
+UX/UI,Accesibilidad,Cumplir estándares WCAG 2.1,Alta
+UX/UI,Velocidad de carga,Tiempos de carga menores a 3 segundos,Crítica
+UX/UI,Interface limpia,Diseño minimalista que no distraiga del contenido,Alta
+Contenido,Organización de cursos,Categorización clara y filtros efectivos,Crítica
+Contenido,Dashboard estudiante,Panel personalizado con progreso y tareas,Alta
+Contenido,Progreso visual,Barras de progreso y logros visuales,Media
+Contenido,Biblioteca recursos,Acceso fácil a materiales complementarios,Media
+Contenido,Contenido multimedia,"Videos, audios, PDFs, presentaciones interactivas",Alta
+Funcionalidad,Sistema LMS,Plataforma robusta como Moodle o LearnDash,Crítica
+Funcionalidad,Pagos integrados,"PayPal, Stripe, pasarelas locales",Alta
+Funcionalidad,Certificaciones,Certificados descargables y verificables,Media
+Funcionalidad,Gamificación,"Puntos, insignias, rankings, desafíos",Media
+Funcionalidad,Comunicación,"Foros, chat, mensajería directa",Alta
+Tecnología,Hosting confiable,Uptime del 99.9% con soporte 24/7,Crítica
+Tecnología,Seguridad de datos,"SSL, encriptación, cumplimiento GDPR",Crítica
+Tecnología,Integraciones,APIs con herramientas de marketing y CRM,Media
+Tecnología,Backup automático,Copias de seguridad diarias automáticas,Alta
+Tecnología,Escalabilidad,Capacidad de crecimiento sin afectar rendimiento,Media
