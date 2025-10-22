@@ -1,3 +1,3 @@
 # NebriAcademy
 
-![Preview](preview.png)
+![Preview](Preview.png)
