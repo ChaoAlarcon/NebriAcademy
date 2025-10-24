@@ -2,4 +2,4 @@
 
 ![Preview](Preview.png)
 
-## - Crear categorías de herramientas 
+- Crear categorías de herramientas 
