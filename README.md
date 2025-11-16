@@ -16,4 +16,4 @@
 
 - Abrir la terminal de comandos
 - Escribir: cd nebriacademy-react
-            npm run dev
+- Escribir: npm run dev
