@@ -2,7 +2,7 @@
 
 ## Vista previa del proyecto
 
-![Preview](preview.png)
+![Preview](Preview.png)
 
 
 
