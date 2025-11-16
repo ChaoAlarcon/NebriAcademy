@@ -1,4 +1,3 @@
-// src/components/AppNavbar.jsx
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
@@ -29,7 +28,7 @@ const AppNavbar = () => {
               <NavLink className="nav-link" to="/my-academy">Mi Academia</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link text-danger" aria-current="page" to="/">Cursos</NavLink>
+              <NavLink className="nav-link" to="/">Cursos</NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/profile">Mi Perfil</NavLink>

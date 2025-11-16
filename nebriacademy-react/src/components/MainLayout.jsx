@@ -1,6 +1,5 @@
-// src/components/MainLayout.jsx
 import React from 'react';
-import AppNavbar from './AppNavbar.jsx'; // Asegúrate de la extensión .jsx
+import AppNavbar from './AppNavbar.jsx'; 
 
 // El componente debe recibir 'children' como prop
 const MainLayout = ({ children }) => {

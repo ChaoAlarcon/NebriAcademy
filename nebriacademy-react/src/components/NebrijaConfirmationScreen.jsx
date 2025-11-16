@@ -1,4 +1,3 @@
-// src/components/NebrijaConfirmationScreen.jsx
 import React, { useState } from 'react';
 
 const NebrijaConfirmationScreen = () => {

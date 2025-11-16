@@ -84,7 +84,7 @@ const CourseList = () => {
           <h4 className="mb-3 text-danger">Categorías</h4>
           <div className="list-group mb-4">
             {/* Los filtros en Bootstrap se ven bien con list-group */}
-            <button type="button" className="list-group-item list-group-item-action active border-danger bg-light text-danger fw-bold">
+            <button type="button" className="list-group-item list-group-item-action ">
               Desarrollo Frontend
             </button>
             <button type="button" className="list-group-item list-group-item-action">
@@ -101,7 +101,7 @@ const CourseList = () => {
             <button type="button" className="list-group-item list-group-item-action">
               Principiante
             </button>
-            <button type="button" className="list-group-item list-group-item-action active border-danger bg-light text-danger fw-bold">
+            <button type="button" className="list-group-item list-group-item-action ">
               Intermedio ★★
             </button>
             <button type="button" className="list-group-item list-group-item-action">

@@ -1,8 +1,6 @@
-// src/components/SavedCoursesScreen.jsx
 import React from 'react';
 import CourseProgressCard from './CourseProgressCard';
 
-// Datos de ejemplo para cursos guardados/recomendados basados en la Página 5
 const savedCourses = [
   {
     id: 1,

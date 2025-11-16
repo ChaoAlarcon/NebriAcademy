@@ -1,15 +1,19 @@
 # NebriAcademy
 
-## Vista previa del PDF
+## Vista previa del proyecto
 
-<iframe 
-    src="NebriAcademy Clone App Project 2.0.pdf" 
-    width="800" 
-    height="600" 
-    style="border: none;">
-</iframe>
+![Preview](preview.png)
+
+
 
 
 - Crear categorías de herramientas
 - Inicio con 1 gran filtro en el que te separe en 2 grandes grupos, si quieres aprender como formación complementaria o si eres externo al centro
 - Crear rutas de aprendizaje y facilitarlo a los estudiantes
+
+
+### Instrucciones para abrir el Front creado en React: 
+
+- Abrir la terminal de comandos
+- Escribir: cd nebriacademy-react
+            npm run dev

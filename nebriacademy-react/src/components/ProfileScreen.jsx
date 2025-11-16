@@ -1,12 +1,11 @@
-// src/components/ProfileScreen.jsx
 import React from 'react';
 
 // Datos de ejemplo para simular el perfil del usuario
 const userData = {
-  name: '[Nombre]',
-  lastName: '[Apellidos]',
-  email: '[Correo Electrónico]',
-  phone: '', // Teléfono vacío por defecto
+  name: '',
+  lastName: '',
+  email: '',
+  phone: '',
 };
 
 const ProfileScreen = () => {
@@ -33,7 +32,7 @@ const ProfileScreen = () => {
           [cite_start]<h4 className="mb-3 text-danger">Nombre</h4> {/* Nombre de usuario [cite: 124] */}
           
           <div className="list-group">
-            <a href="#" className="list-group-item list-group-item-action active text-danger bg-light border-danger">
+            <a href="#" className="list-group-item list-group-item-action">
               <i className="bi bi-person-fill me-2"></i>
               [cite_start]Mis datos {/* [cite: 125] */}
             </a>
