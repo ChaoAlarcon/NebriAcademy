@@ -1,8 +1,13 @@
 # NebriAcademy
 
-## Vista previa del diseño Figma
+## Vista previa del PDF
 
-NebriAcademy Clone App Project 2.0.pdf</iframe>
+<iframe 
+    src="NebriAcademy Clone App Project 2.0.pdf" 
+    width="800" 
+    height="600" 
+    style="border: none;">
+</iframe>
 
 
 - Crear categorías de herramientas
