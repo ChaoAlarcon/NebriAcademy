@@ -1,0 +1,87 @@
+/* src/AppStyles.css - Versión Estilizada */
+
+/* ---------------------------------------------------- */
+/* 1. Variables y Tipografía */
+/* ---------------------------------------------------- */
+
+/* --- Importación de Fuente (Debes añadirla a index.html) --- */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap'); */
+
+:root {
+  --nebrija-red: #dc3545;
+  /* Sombras más suaves para un look moderno */
+  --shadow-sm-custom: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.08);
+  --shadow-lg-custom: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+  --border-radius: 0.75rem; /* Bordes ligeramente más redondeados */
+}
+
+body {
+    /* Si usas Poppins, descomenta la importación arriba y usa esto */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f7f9fc; /* Fondo muy claro para contrastar el contenido */
+}
+
+/* ---------------------------------------------------- */
+/* 2. Estilos de Tarjetas (CourseCard.jsx) */
+/* ---------------------------------------------------- */
+
+.card {
+    border-radius: var(--border-radius);
+    border: 1px solid rgba(0, 0, 0, 0.05); /* Borde sutil */
+    overflow: hidden; /* Asegura que la imagen respete el radio */
+    box-shadow: var(--shadow-sm-custom); /* Sombra inicial suave */
+}
+
+/* Transición y efecto de elevación al pasar el ratón */
+.transition-shadow {
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.hover-shadow-lg:hover {
+    box-shadow: var(--shadow-lg-custom) !important;
+    /* Efecto de elevación sutil */
+    transform: translateY(-3px); 
+}
+
+/* ---------------------------------------------------- */
+/* 3. Overrides de Bootstrap */
+/* ---------------------------------------------------- */
+
+/* Estilo para los filtros activos (Página 1 y 6) */
+.list-group-item.active {
+    color: var(--nebrija-red) !important;
+    background-color: #fcebeb !important; /* Fondo rojo muy claro */
+    border-color: var(--nebrija-red) !important;
+    font-weight: 600 !important;
+    border-radius: 0.5rem !important; /* Bordes redondeados en los ítems */
+}
+
+/* Estilo para la Barra de Búsqueda (Página 1) */
+.input-group.shadow-sm {
+    /* La sombra en el grupo de input puede ser ligeramente más fuerte */
+    box-shadow: var(--shadow-sm-custom) !important;
+    border-radius: var(--border-radius);
+    overflow: hidden; /* Asegura que el input y el botón compartan el radio */
+}
+
+.input-group .form-control-lg {
+    /* Elimina el borde del input para que el grupo se vea como un todo */
+    border: none !important; 
+    box-shadow: none !important;
+}
+
+/* Estilo del botón de la barra de búsqueda */
+.input-group .btn-danger {
+    background-color: var(--nebrija-red);
+    color: white;
+    border: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/* Estilo para la pantalla de Login/Confirmación */
+.card.shadow-lg {
+    border-radius: 1.5rem !important;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1) !important;
+}
